@@ -7,7 +7,7 @@ public class Prime
         int num1 = scanner.nextInt();
         int num2 = scanner.nextInt();
         int average = (num1 + num2) / 2;
-        System.out.println("Prime numbers between 1 and the average (" + average + "):");
+        System.out.println("Prime numbers between 1 and the average is (" + average + "):");
         for (int i = 2; i <= average; i++) {
             if (isPrime(i)) {
                 System.out.print(i + " ");
